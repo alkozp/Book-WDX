@@ -10,8 +10,6 @@ jobs:
           path: './my-app'
       - name: Install NodeJS
         uses: actions/setup-node@v4 
-        with:  
-          node-version-file: 'package.json'
       - name: Install dependencies
         run: npm ci
       - name: Run tests
