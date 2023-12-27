@@ -7,9 +7,10 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
         with:
-          path: './my-app/'
+          path: './my-app'
       - name: Install NodeJS
         uses: actions/setup-node@v4
+        node-version-file: 'package.json'
         with:
           node-version: 18
       - name: Install dependencies
