@@ -1,4 +1,4 @@
-name: test workflow
+name: lint workflow
 on: workflow_dispatch
 
 jobs:
