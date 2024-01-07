@@ -15,7 +15,7 @@ const getContributors = async (repoName) => {
 //getContributors();
 
 // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
-const octokit = new Octokit({ auth: `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` });
+const octokit = new Octokit({ auth: `` });
 
 // Compare: https://docs.github.com/en/rest/reference/users#get-the-authenticated-user
 const {
