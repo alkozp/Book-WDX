@@ -3,8 +3,13 @@ on: #workflow_dispatch #push
   pull_request:
     types: #[opened, edited]
       - opened
+    branches:
+      - main
   workflow_dispatch:
-    
+  push:
+    branches:
+      - main
+      - dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
