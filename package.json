@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "lint:js": "eslint src/**/*.js",
+      "lint": "npm run lint:js"
+    }
+  }
