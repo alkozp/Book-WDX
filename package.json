@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "lint:js": "eslint src/**/*.js",
+    "lint:js": "eslint *.js",
     "lint": "npm run lint:js"
   },
   "name": "book-wdx",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
