@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint:js": "eslint *.js",
+    "lint:js": "eslint js/app/*.js",
     "lint": "npm run lint:js"
   },
   "name": "book-wdx",
